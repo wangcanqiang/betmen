@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block main %}
+<article class="about">
+
+            <header class="entry-header">
+
+                <h1 class="entry-title">
+
+                    About Me
+
+                </h1>
+			<div class="entry-content clearfix">
+								<figure class="img-responsive-center">
+									<img class="img-responsive" src="{% static 'blog/img/me.jpg' %}" alt="Developer Image">
+			</div>
+			<div><p>本博客是Betmen的个人技术博客，参考了廖雪峰的Python教程和追梦人物的Django教程,同时也参考了几本书，其中最主要的是《Python基础教程》和《流畅的Python》两本书，其他的网络资源在此不再细说但仍说声谢谢。本博客将会主要记载本人的一些日志和技术教程，日志的目的在于记录生活感悟和分享一些好的散文、文章，技术教程主要是自己学习技术时的一些感悟和收获，同时期望能够有所输出以帮助他人。</p></div>
+			<div><p>博主，毕业于兰州大学，对编程和大数据有浓厚的兴趣，工作于西安。学习过的编程语言有Java和Python，现正在巩固以上两种语言，同时也在看一些Javascript方面的书籍。由于专业原因，对于R语言，Matlab和Latex也较为熟悉,目前已经掌握了基本的数据挖掘算法。但对于大数据工具学习的并不太多。</p></div>
+			<div><p>另，图片来源于田晓鹏导演的《大圣归来》，是《大圣归来》的一张宣传海报，该电影已于2015年上映。孙悟空代表着一种敢于斗争，有着莱鹜不驯性格特征和一往无前进取精神的形象。图片版权归原作者所有。
+</article>
+
+{% endblock main %}
